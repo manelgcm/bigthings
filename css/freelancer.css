@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #a40000;
 }
 h1,
 h2,
@@ -69,7 +69,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   background: #ffffff;
-  color: #204a87;
+  color: #a40000;
 }
 header .container {
   padding-top: 100px;
@@ -103,7 +103,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #204a87;
+  background: #a40000;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -125,7 +125,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #2e3436;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -133,13 +133,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #2e3436;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #2e3436;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -149,9 +149,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #2e3436;
   color: white;
-  border-color: #18BC9C;
+  border-color: #2e3436;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -175,12 +175,12 @@ header .intro-text .skills {
 }
 section {
   background: #ffffff;
-  padding: 100px 0;
+  padding: 75px 0;
 }
 section h2 {
   margin: 0px;
   font-size: 3em;
-  color:#204a87;
+  color:#2e3436;
 }
 .h2_divider {
   height: 3px;
@@ -188,8 +188,12 @@ section h2 {
   display:block; 
   margin: 9px 0;
   overflow: hidden;
-  background-color: #204a87;
+  background-color: #2e3436;
   margin-bottom: 75px;
+}
+section h3 {
+  margin: 0px;
+  color:#2e3436;
 }
 section.success {
   background: #729fcf;
@@ -208,7 +212,7 @@ section.grey-success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+/*#portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
@@ -219,7 +223,7 @@ section.grey-success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(164, 0, 0, 0.3);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -255,7 +259,7 @@ section.grey-success {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
-}
+}*/
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -313,14 +317,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #3465a4;
+  background-color: #ef2929;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #204a87;
+  background-color: #a40000;
 }
 .btn-outline {
   color: white;
@@ -334,7 +338,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #2e3436;
   background: white;
   border: solid 2px white;
 }
@@ -530,3 +534,232 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+p.description {
+  color: #2e3436;
+  margin: 0px;
+  margin-top: 25px;
+  font-size: 18px;
+}
+p.about {
+  color: #2e3436;
+  margin: 0px;
+  font-size: 18px;
+  text-align: center
+}
+h3.description {
+  margin: 0px;
+  margin-top: 25px;
+  text-align: center;
+}
+h2.description {
+  margin: 0px;
+  margin-top: 25px;
+  text-align: center;
+}
+img.about {
+  margin:auto;
+  margin-top: 35px;
+  width: 75%;
+}
+
+/*FIXME */
+#modules .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#modules .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#modules .portfolio-item .portfolio-link .caption {
+  background: rgba(164, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#modules .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#modules .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#modules .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#modules .portfolio-item .portfolio-link .caption .caption-content h3,
+#modules .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#modules * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #modules .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+/*FIXME */
+#devtools .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#devtools .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#devtools .portfolio-item .portfolio-link .caption {
+  background: rgba(164, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#devtools .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#devtools .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#devtools .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#devtools .portfolio-item .portfolio-link .caption .caption-content h3,
+#devtools .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#devtools * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #devtools .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+/*FIXME */
+#faq .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#faq .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#faq .portfolio-item .portfolio-link .caption {
+  background: rgba(164, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#faq .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#faq .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#faq .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#faq .portfolio-item .portfolio-link .caption .caption-content h3,
+#faq .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#faq * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #faq .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+/*FIXME */
+#genius .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#genius .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#genius .portfolio-item .portfolio-link .caption {
+  background: rgba(164, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#genius .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#genius .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#genius .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#genius .portfolio-item .portfolio-link .caption .caption-content h3,
+#genius .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#genius * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #genius .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+
